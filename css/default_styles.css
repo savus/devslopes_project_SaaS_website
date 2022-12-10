@@ -85,6 +85,15 @@ img
     margin-right:auto;
 }
 
+.btn-primary
+{
+    background-color:var(--button-base);
+    color:var(--white);
+    font-weight:600;
+    padding:var(--size-14) var(--size-30);
+    border-radius:var(--size-30);
+}
+
 /*
 ==============================
 MEDIA QUERIES
@@ -96,3 +105,8 @@ MEDIA QUERIES
 400px
 ==============================
 */
+
+@media screen and (min-width:1024px)
+{
+   
+}

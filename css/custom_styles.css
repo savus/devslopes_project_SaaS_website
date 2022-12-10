@@ -1,0 +1,46 @@
+.navbar
+{
+    padding:var(--size-20) 0;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    width: 100%;
+}
+
+.navbar .container
+{
+    padding-left:var(--size-40);
+    padding-right:var(--size-40);
+}
+
+.logo-container
+{
+    width:var(--size-150);
+    margin-right:auto;
+}
+
+.navbar-flex,
+.nav-links
+{
+    display:flex;
+    align-items:center;
+    font-size:var(--size-14);
+}
+
+.nav-links li
+{
+    margin-right:var(--size-30);
+}
+
+.nav-links li a 
+{
+    color:var(--font-color-base);
+    font-weight:600;
+}
+
+.nav-links .link-selected
+{
+    color:var(--link-highlight);
+}
+
