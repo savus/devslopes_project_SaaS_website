@@ -33,11 +33,6 @@
     font-weight:500;
 }
 
-header.header-container
-{
-    margin-top:var(--size-50);
-}
-
 header .container 
 {
     display:flex;
@@ -47,11 +42,13 @@ header .container
 header .container > div 
 {
     flex:1;
+    border:1px solid black;
+    min-width:420px;
 }
 
-.empowerment-wrapper
+.empowerment-wrapper 
 {
-    max-width:35rem;
+    padding-bottom:var(--size-150);
 }
 
 .empowerment-wrapper h2 
@@ -72,11 +69,6 @@ header .container > div
     margin-right:var(--size-20);
 }
 
-.empowerment-wrapper .link-selected
-{
-    font-weight:600;
-}
-
 .title-and-content h2
 {
     color:var(--black);
@@ -92,6 +84,86 @@ a.link-selected
     color:var(--link-highlight);
 }
 
+a.link-selected.bold
+{
+    font-weight:600;
+}
+
+.logo-container-circles
+{
+    position:relative;
+}
+
+.circle-logos li 
+{
+    position:absolute;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    border-radius:50%;
+    background-color:#fff;
+    box-shadow:0px 0px 12px rgba(0,0,0,0.2);
+}
+
+.circle-logos li.md 
+{
+    width:var(--size-60);
+    height:var(--size-60);
+}
+
+.circle-logos li.sm 
+{
+    width:40px;
+    height:40px;
+}
+
+.circle-logos li img
+{
+    width:60%;
+}
+
+.circle-logos li.google-icon
+{
+    left:50px;
+}
+
+.circle-logos li.paypal-icon 
+{
+    left:16px;
+    top:110px;
+}
+
+.circle-logos li.atlassian-icon 
+{
+    left: 130px;
+    top: 8px;  
+}
+
+.circle-logos li.google-a-icon
+{
+    left: 100px;
+    top: 220px;
+}
+
+.circle-logos li.weave-icon
+{
+    left: 45%;
+    top: 110px;
+}
+
+.circle-logos li.asana-icon 
+{
+    right:5%;
+}
+
+.circle-logos li.calendar-icon
+{
+    right:5%;
+    bottom:15%;
+}
+
+
+/* 
 .circle-logos 
 {
     display:grid;
@@ -204,4 +276,4 @@ a.link-selected
         top:0;
         opacity:1;
     }
-}
+} */
