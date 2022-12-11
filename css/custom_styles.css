@@ -180,6 +180,18 @@ a.link-selected
     animation-delay:1s;
 }
 
+.section-introduction
+{
+    text-align:center;
+    margin:var(--size-150) 0;
+}
+
+.section-introduction h2
+{
+    margin-bottom:0;
+    font-weight:700;
+}
+
 @keyframes fade-in-top 
 {
     from 
