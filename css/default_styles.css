@@ -4,6 +4,7 @@
 /* DEFAULT FONT VARIABLES. PROPERTY(IN PIXELS): VALUE(IN REM); */
     --size-8:0.5rem;
     --size-10:0.625rem;
+    --size-12:0.75rem;
     --size-14:0.875rem;
     --size-16:1rem;
     --size-18:1.125rem;
@@ -27,7 +28,7 @@
     --font-color-dark:#030303;
     --font-color-bright:#f6f7f9;
     --font-color-soft:#607082;
-    --background-color-soft:#e0e7ef;
+    --background-color-soft:rgba(224, 231, 239,0.3);
     /*--box-shadow:#e3e3e3;*/
     --icon-background-soft:#ecf2ff;
     --icon-background-dark:#677787;
@@ -110,6 +111,7 @@ img
     padding:0.188rem var(--size-14);
     margin:0 var(--size-16);
 }
+
 
 /*
 ==============================
