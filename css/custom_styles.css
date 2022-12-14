@@ -187,13 +187,15 @@ header .header-icon.md
     text-align:center;
 }
 
-.benefits-section .title-and-content h2
+.benefits-section .title-and-content h2,
+.title-and-content.centered h2
 {
     font-size:var(--size-30);
     margin-bottom:var(--size-10);
 }
 
-.benefits-section .title-and-content p
+.benefits-section .title-and-content p,
+.title-and-content.centered p
 {
     font-size:var(--size-20);
 }
@@ -219,6 +221,11 @@ header .header-icon.md
 .benefit-card a 
 {
     font-size:var(--size-20);
+}
+
+.banner-section
+{
+    margin-bottom:var(--size-100);
 }
 
 .banner-section-columns 
