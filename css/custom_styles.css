@@ -225,7 +225,6 @@ header .header-icon.md
 .benefit-card .title-and-content h2
 {
     font-size:var(--size-20);
-    margin-bottom:var(--size-30);
 }
 
 .benefit-card .title-and-content p 
@@ -257,6 +256,47 @@ header .header-icon.md
     font-size:var(--size-40);
     font-weight:400;
 }
+
+.component-nodes .container 
+{
+    justify-content:space-between;
+    padding:0 12.5rem;
+}
+
+.node-container .node 
+{
+    width:75px;
+    height:75px;
+    border-radius:50%;
+    position:relative;
+}
+
+.node-container .node::before 
+{
+    content:"";
+    display:block;
+    position:absolute;
+    width:var(--size-10);
+    height:var(--size-10);
+    top:45%;
+    left:45%;
+    border-radius:50%;
+    background-color:var(--button-base);
+}
+
+.component-nodes .node-line
+{
+    height:2px;
+    margin:0 15px;
+    width:100%;
+}
+
+.node-container .node,
+.component-nodes .node-line
+{
+    background-color:rgba(224, 231, 239,0.8);
+}
+
 
 @keyframes fade-in-top
 {
