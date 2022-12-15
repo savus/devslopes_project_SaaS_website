@@ -322,6 +322,7 @@ header .header-icon.md
 .hubspot-video-container
 {
     position:relative;
+    margin-bottom:12.5rem;
 }
 
 .hubspot-play 
@@ -332,6 +333,56 @@ header .header-icon.md
     transform:translate(-50% -50%);
 }
 
+.director-image-column
+{
+    position:relative;
+}
+
+.director-image-column img 
+{
+    position:absolute;
+}
+
+.director-image 
+{
+    max-width:37.5rem;
+    top: -25rem;
+    left: 5.938rem;
+    z-index: 5;
+
+}
+
+.dots-graphic
+{
+    max-width:21.25rem;
+    top:-17.25rem;
+}
+
+.hubspot-logo 
+{
+    max-width:12.5rem;
+}
+
+.director-quote-column > h2 
+{
+    color: var(--black);
+    font-size: var(--size-40);
+    font-weight: 400;
+    line-height: 3.5rem;
+    margin: var(--size-50) 0;
+}
+
+.director-name h2 
+{
+    margin-bottom: 0;
+    font-size: 2.188rem;
+}
+
+.director-name p 
+{
+    font-size: 1.75rem;
+    font-weight: bold;
+}
 
 @keyframes fade-in-top
 {
