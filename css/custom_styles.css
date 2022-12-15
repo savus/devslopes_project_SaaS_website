@@ -39,7 +39,7 @@
     flex:1;
 }
 
-a .fa-play 
+a .play-arrow-base
 {
     background-color:white;
     color:var(--button-base);
@@ -48,6 +48,8 @@ a .fa-play
     padding:0.438rem var(--size-8) 0.438rem var(--size-10);
     border-radius:50%;
 }
+
+
 
 
 header h2 
@@ -257,9 +259,9 @@ header .header-icon.md
     font-weight:400;
 }
 
-.component-nodes 
+.component-nodes
 {
-    padding-bottom:400px;
+    padding-bottom:12.5rem;
 }
 
 .component-nodes .container { justify-content:center; }
@@ -316,6 +318,20 @@ header .header-icon.md
     color:var(--font-color-dark);
     font-size:var(--size-30);
 }
+
+.hubspot-video-container
+{
+    position:relative;
+}
+
+.hubspot-play 
+{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50% -50%);
+}
+
 
 @keyframes fade-in-top
 {
