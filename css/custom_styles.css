@@ -384,6 +384,16 @@ header .header-icon.md
     font-weight: bold;
 }
 
+.company-logos-container
+{
+    justify-content:space-between;
+}
+
+.company-logos-container img 
+{
+    max-width:210px;
+}
+
 @keyframes fade-in-top
 {
     from 
