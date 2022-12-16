@@ -405,6 +405,11 @@ header .header-icon.md
     max-width:210px;
 }
 
+.pricing-section
+{
+    margin-bottom:200px;
+}
+
 .pricing-card-grid 
 {
     display:grid;
@@ -483,9 +488,14 @@ header .header-icon.md
     grid-row: 2 / span 1;
 }
 
-.components-card, 
-.cancel-card 
+.form-section
 {
+    background-color:var(--background-color-form);
+}
+
+.form-container
+{
+    display:flex;
 }
 
 @keyframes fade-in-top

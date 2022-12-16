@@ -29,12 +29,10 @@
     --font-color-bright:#f6f7f9;
     --font-color-soft:#607082;
     --background-color-soft:rgba(224, 231, 239,1);
+    --background-color-form:#20335b;
     /*--box-shadow:#e3e3e3;*/
     --icon-background-soft:#ecf2ff;
     --icon-background-dark:#677787;
-    --asana:#de4438;
-    --slack:#f5c998;
-    --spotify:#00c9a7;
 }
 
 body
