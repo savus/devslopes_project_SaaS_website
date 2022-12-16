@@ -374,34 +374,39 @@
                 </div>
                 <div class="form-column">
                     <form action="/action_page.php" target="_blank" method="POST">
-                        <h3>Fil out the form and we'll be in touch as soon as possible</h3>
+                        <h3>Fill out the form and we'll be in touch as soon as possible</h3>
                         
-                        <input type="text" id="first-name-1" name="first-name-1" placeholder="First name">
-                        <input type="text" id="last-name-1" name="last-name-1" placeholder="Last name">
-                
-                        <input type="text" id="first-name-2" name="first-name-2" placeholder="First name">
-                        <input type="text" id="last-name-2" name="last-name-2" placeholder="Last name">
+                        <div class="input-field-grid">
+                            <input type="text" class="col-1" id="first-name-1" name="first-name-1" placeholder="First name">
+                            <input type="text" class="col-2" id="last-name-1" name="last-name-1" placeholder="Last name">
+                    
+                            <input type="text" class="col-1" id="first-name-2" name="first-name-2" placeholder="First name">
+                            <input type="text" class="col-2" id="last-name-2" name="last-name-2" placeholder="Last name">
+    
+                            <select name="budget" id="budget" class="budget">
+                                <option value="">Budget</option>
+                            </select>
+                            <select name="budget" id="budget" class="budget">
+                                <option value="">Country</option>
+                            </select>
+    
+                            <textarea name="more-info" id="more-info" cols="30" rows="10">
+                                Tell us more about your project, needs, and timeline, please...
+                            </textarea>
+                        </div>
 
-                        <select name="budget" id="budget" class="budget">
-                            <option value="">Budget</option>
-                        </select>
-                        <select name="budget" id="budget" class="budget">
-                            <option value="">Budget</option>
-                        </select>
+                        <div class="flex-and-align">
+                            <input type="checkbox" name="receive-email" id="receive-email" class="receive-email">
+                            <label for="receive-email">
+                                Yes, I'd like to receive occasional marketing emails from Front. 
+                                I have the right to opt out at any time.
+                            </label>
+                        </div>
+                        <div class="flex-and-align policy-container">
+                            <a href="#" class="privacy-policy">View privacy policy</a>
+                            <a href="#" class="privacy-policy selected">View privacy policy</a>
+                        </div>
 
-                        <textarea name="more-info" id="more-info" cols="30" rows="10">
-                            Tell us more about your project, needs, and timeline, please...
-                        </textarea>
-
-                        <input type="checkbox" name="receive-email" id="receive-email" class="receive-email">
-                        <label for="receive-email">
-                            Yes, I'd like to receive occasional marketing emails from Front. 
-                            I have the right to opt out at any time.
-                        </label>
-
-                        <a href="#" class="privacy-policy">View privacy policy</a>
-                        <a href="#" class="privacy-policy selected">View privacy policy</a>
-                        
                         <input type="submit" value="Get Started" class="btn btn-primary">
                     </form>
                 </div>

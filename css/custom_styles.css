@@ -491,11 +491,107 @@ header .header-icon.md
 .form-section
 {
     background-color:var(--background-color-form);
+    padding:50px;
 }
 
 .form-container
 {
     display:flex;
+}
+
+form 
+{
+    padding:30px 40px;
+    background:var(--white);
+    border-radius:15px;
+}
+
+form > *,
+form input,
+form select,
+form textarea
+{
+    font-size:var(--size-20);
+}
+
+form h3
+{
+    font-size:25px;
+    line-height:2rem;
+    color:var(--black);
+}
+
+.input-field-grid 
+{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    grid-gap:30px;
+}
+
+.input-field-grid input,
+.input-field-grid select
+{
+    padding:20px 10px;
+}
+
+.input-field-grid input,
+.input-field-grid select,
+.input-field-grid textarea
+{
+    border-radius:10px;
+    border:2px solid var(--background-color-soft);
+    font-weight:400;
+    background-color:transparent;
+}
+
+.input-field-grid textarea 
+{
+    grid-column:1 / span 2;
+    color:var(--font-color-soft);
+    font-family:"Open Sans",sans-serif;
+    padding:10px;
+    resize:none;
+    overflow:hidden;
+}
+
+form input[type="checkbox"]
+{
+    width:60px;
+    height:60px;
+    opacity:0.2;
+    margin-right:30px;
+}
+
+.input-field-grid + div
+{
+    margin:30px 0;
+}
+
+.policy-container
+{
+    justify-content:space-evenly;
+    font-weight:600;
+}
+
+.policy-container a 
+{
+    border-bottom:2px dashed;
+}
+
+.policy-container a:nth-child(1)
+{
+    color:var(--font-color-base);
+}
+
+.policy-container a:nth-child(2)
+{
+    color:var(--link-highlight);
+}
+
+form input[type="submit"]
+{
+    display:block;
+    margin:40px auto 10px auto;
 }
 
 @keyframes fade-in-top
