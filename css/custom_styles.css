@@ -491,12 +491,76 @@ header .header-icon.md
 .form-section
 {
     background-color:var(--background-color-form);
-    padding:50px;
+    padding:50px 40px 70px 100px;
 }
 
 .form-container
 {
     display:flex;
+}
+
+.hire-us h2
+{
+    font-size:45px;
+    color:var(--white);
+    margin-bottom:0;
+}
+
+.hire-us p 
+{
+    font-size:25px;
+}
+
+.hire-us-column
+{
+    align-self:center;
+}
+
+.hire-us-column hr 
+{
+    max-width:280px;
+    margin-left:0;
+    color:var(--white);
+    margin:40px 0;
+}
+
+.hire-us-quote
+{
+    font-size:26px;
+    font-style:italic;
+    color:var(--white);
+}
+
+.business-credit 
+{
+    margin:100px 0;
+}
+
+.business-credit h2 
+{
+    color:var(--white);
+    margin:0;
+    font-size:30px;
+}
+
+.business-credit p 
+{
+    font-size:25px;
+}
+
+
+.staff-profiles img 
+{
+    width:75px;
+    height:75px;
+    border-radius:50%;
+    margin-right:40px;
+}
+
+.staff-profiles .staff-profile-lg
+{
+    width:90px;
+    height:90px;
 }
 
 form 
@@ -506,7 +570,7 @@ form
     border-radius:15px;
 }
 
-form > *,
+form *,
 form input,
 form select,
 form textarea
