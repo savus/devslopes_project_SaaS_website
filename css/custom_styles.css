@@ -307,7 +307,7 @@ header .header-icon.md
 .node-line
 {
     background-color:var(--background-color-soft);
-    width:11.25rem;
+    width:8.25rem;
     height:2px;
 }
 
@@ -386,7 +386,7 @@ header .header-icon.md
 
 .trusted-company-section
 {
-    margin-bottom:var(--size-150);
+    margin:var(--size-150) 0;
 }
 
 .trusted-company-section h2 
@@ -408,8 +408,84 @@ header .header-icon.md
 .pricing-card-grid 
 {
     display:grid;
-    grid-template-columns:repeat(4,1fr);
+    grid-template-columns:repeat(3,1fr);
     grid-template-rows:1fr 1fr;
+    grid-gap:60px;
+}
+
+.monthly-price 
+{
+    grid-column:1 / span 1;
+    grid-row:1 / span 2;
+    width:550px;
+}
+
+.benefit-card.monthly-price span:nth-child(1) 
+{
+    font-size:70px;
+    font-weight:400;
+    color:var(--black);
+}
+
+.benefit-card.monthly-price span:nth-child(2) 
+{
+    margin:0 0 0 10px;
+    font-weight:400;
+    font-size:30px;
+}
+
+.monthly-price hr
+{
+    margin:20px 0 50px 0;
+}
+
+.monthly-price .btn-primary
+{
+    margin:50px 0 15px 0;
+}
+
+.monthly-price ~ .benefit-card 
+{
+    padding:0;
+    box-shadow:none;
+    border:none;
+}
+
+.monthly-price ~ .benefit-card h2 
+{
+    font-size:26px;
+}
+
+.monthly-price ~ .benefit-card .benefit-icon
+{
+    max-width:75px;
+}
+
+.components-card
+{
+    grid-column:2 / span 1;
+}
+
+.images-card 
+{
+    grid-column:3 / span 1;
+}
+
+.cancel-card 
+{
+    grid-column:2 / span 1;
+    grid-row:2 / span 1;
+}
+
+.money-back-card 
+{
+    grid-column:3 / span 1;
+    grid-row: 2 / span 1;
+}
+
+.components-card, 
+.cancel-card 
+{
 }
 
 @keyframes fade-in-top
