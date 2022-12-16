@@ -345,7 +345,7 @@ header .header-icon.md
 
 .director-image 
 {
-    max-width:37.5rem;
+    max-width:31.5rem;
     top: -25rem;
     left: 5.938rem;
     z-index: 5;
@@ -360,7 +360,7 @@ header .header-icon.md
 
 .hubspot-logo 
 {
-    max-width:12.5rem;
+    max-width:9.5rem;
 }
 
 .director-quote-column > h2 
@@ -384,6 +384,17 @@ header .header-icon.md
     font-weight: bold;
 }
 
+.trusted-company-section
+{
+    margin-bottom:var(--size-150);
+}
+
+.trusted-company-section h2 
+{
+    font-size: var(--size-30);
+    margin-bottom: var(--size-50);
+}
+
 .company-logos-container
 {
     justify-content:space-between;
@@ -392,6 +403,13 @@ header .header-icon.md
 .company-logos-container img 
 {
     max-width:210px;
+}
+
+.pricing-card-grid 
+{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    grid-template-rows:1fr 1fr;
 }
 
 @keyframes fade-in-top
