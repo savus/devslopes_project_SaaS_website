@@ -17,8 +17,12 @@
 
 .brand-logo 
 {
-    margin-right:auto;
     width:12.5rem;
+}
+
+.push-right
+{
+    margin-right:auto;
 }
 
 .nav-links li
@@ -48,9 +52,6 @@ a .play-arrow-base
     padding:0.438rem var(--size-8) 0.438rem var(--size-10);
     border-radius:50%;
 }
-
-
-
 
 header h2 
 {
@@ -491,7 +492,7 @@ header .header-icon.md
 .form-section
 {
     background-color:var(--background-color-form);
-    padding:50px 40px 70px 100px;
+    padding:50px 30px 70px 100px;
 }
 
 .form-container
@@ -656,6 +657,49 @@ form input[type="submit"]
 {
     display:block;
     margin:40px auto 10px auto;
+}
+
+footer
+{
+    padding:100px 100px 50px 50px;
+}
+
+.footer-column-grid
+{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    grid-gap:0px;
+    justify-items:center;
+}
+
+.footer-col h2
+{
+    color:var(--black);
+    font-size:28px;
+}
+
+.footer-col-list li
+{
+    line-height:2.5rem;
+}
+
+.footer-col i 
+{
+    width:25px;
+    height:25px;
+}
+
+.footer-col a 
+{
+    font-size:20px;
+    color:var(--font-color-base);
+}
+
+.footer-col a.btn-small
+{
+    font-size:12px;
+    color:var(--white);
+    margin-left:14px;
 }
 
 @keyframes fade-in-top

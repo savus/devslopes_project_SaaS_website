@@ -125,6 +125,13 @@ img
     align-items: center;
 }
 
+.btn-small
+{
+    padding:3px;
+    border-radius:5px;
+    line-height:1rem;
+}
+
 
 /*
 ==============================
