@@ -60,7 +60,10 @@
 
 .nav-links li { margin-right:var(--size-30); }
 
-.flex-row > div { flex:1; }
+.flex-row > div 
+{ 
+    flex:1; 
+}
 
 a .play-arrow-base
 {
@@ -123,15 +126,15 @@ header .header-icon
     animation-timing-function:ease-out;
 }
 
-header .header-icon img { width:60%; }
+.header-icon img { width:60%; }
 
-header .header-icon.sm 
+.header-icon.sm 
 {
     width:var(--size-100);
     height:var(--size-100);
 }
 
-header .header-icon.md 
+.header-icon.md 
 {
     width:7.5rem;
     height:7.5rem;
@@ -156,7 +159,6 @@ header .header-icon.md
 {
     grid-column: 4 / span 1;
     animation-duration:0.6s;
-
 }
 
 .paypal-icon
@@ -165,7 +167,6 @@ header .header-icon.md
     grid-row: 3 / span 1;
     justify-self:right;
     animation-duration:0.7s;
-
 }
 
 .weave-icon 
