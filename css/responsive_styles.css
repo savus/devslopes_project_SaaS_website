@@ -27,6 +27,26 @@ FOR IPADS AND TABLETS = PORTRAIT MODE
 
    [aria-expanded="true"] ~ ul 
    {
-      display:block;
+      display:flex;
+   }
+
+   .nav-links
+   {
+      flex-wrap:wrap;
+      justify-content:center;
+      position:absolute;
+      background-color:var(--white);
+      top:var(--size-100);
+      left:0;
+      right:0;
+      width:100%;
+      padding:var(--size-50) 0;
+   }
+
+   .buy-now-btn
+   {
+      width:100%;
+      text-align:center;
+      margin-top:var(--size-50);
    }
 }
