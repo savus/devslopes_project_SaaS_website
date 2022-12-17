@@ -33,13 +33,13 @@
     background-color:transparent;
     border:1px solid transparent;
     transform:translateY(-50%);
+    cursor:pointer;
 }
 
 .navbar-toggler span 
 {
     font-size:var(--size-30);
     color:var(--font-color-base);
-    cursor:pointer;
     pointer-events:none;
 }
 

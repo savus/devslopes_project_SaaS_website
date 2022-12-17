@@ -28,10 +28,6 @@ FOR IPADS AND TABLETS = PORTRAIT MODE
    [aria-expanded="true"] ~ ul 
    {
       display:flex;
-   }
-
-   .nav-links
-   {
       flex-wrap:wrap;
       justify-content:center;
       position:absolute;
@@ -43,10 +39,33 @@ FOR IPADS AND TABLETS = PORTRAIT MODE
       padding:var(--size-50) 0;
    }
 
-   .buy-now-btn
+   [aria-expanded="true"] ~ ul .buy-now-btn
    {
       width:100%;
       text-align:center;
+      margin-top:var(--size-50);
+   }
+
+   header .container 
+   {
+      flex-wrap:wrap;
+   }
+
+   header 
+   {
+      text-align:center;
+   }
+
+   header h2 
+   {
+      font-size: 2.688rem;
+      line-height: 3rem;
+   }
+
+   header p { margin-bottom:var(--size-20); }
+
+   .header-icon-container
+   {
       margin-top:var(--size-50);
    }
 }
