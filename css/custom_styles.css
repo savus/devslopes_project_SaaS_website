@@ -22,7 +22,29 @@
     box-shadow:0 0 12px rgba(27,27,27,0.1);
 }
 
-.navbar .container { padding:var(--size-20) 0; }
+.navbar .container { padding:var(--size-20) var(--size-30); }
+
+.navbar-toggler 
+{
+    position:absolute;
+    right:var(--size-30);
+    top:50%;
+    outline:none;
+    background-color:transparent;
+    border:1px solid transparent;
+    transform:translateY(-50%);
+}
+
+.navbar-toggler span 
+{
+    font-size:var(--size-30);
+    color:var(--font-color-base);
+    cursor:pointer;
+    pointer-events:none;
+}
+
+[aria-controls="navbarDropdown"] { display:none; }
+
 
 .flex-and-align
 {
