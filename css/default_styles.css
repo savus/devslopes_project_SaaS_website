@@ -50,6 +50,8 @@ body a
     padding:0;
 }
 
+body a:hover { color:var(--link-highlight); }
+
 *,
 ::after,
 ::before
