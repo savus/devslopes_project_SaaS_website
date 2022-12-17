@@ -61,9 +61,19 @@ FOR IPADS AND TABLETS = PORTRAIT MODE
 
    .benefits-section { margin-top:var(--size-100); }
 
-   .section-intro.mobile-resize-text h2 { font-size:var(--size-25); }
+   .mobile-resize-text h2 { font-size:var(--size-25); }
    
-   .section-intro.mobile-resize-text p { font-size:var(--size-18); }
+   .mobile-resize-text p { font-size:var(--size-18); }
+
+   .mobile-resize-text .btn-primary
+   {
+      font-size:var(--size-14);
+   }
+
+   .column-left h2 
+   {
+      line-height:2rem;
+   }
 
    .mobile-resize-icon .sm 
    {
@@ -120,7 +130,6 @@ FOR IPADS AND TABLETS = PORTRAIT MODE
    {
       padding: 0.098rem var(--size-8);
    }
-
 }
 
 @media screen and (max-width:400px)
