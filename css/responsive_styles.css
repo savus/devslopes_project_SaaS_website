@@ -54,26 +54,30 @@ FOR IPADS AND TABLETS = PORTRAIT MODE
    header .mobile-resize-text h2
    {
       font-size: 2.688rem;
-      line-height: 3rem;
+      /* line-height: 3rem; */
    }
 
-   .padding-beneath { padding-bottom:var(--size-50); }
+   .padding-beneath { padding-bottom:var(--size-20); }
 
    .benefits-section { margin-top:var(--size-100); }
 
-   .mobile-resize-text h2 { font-size:var(--size-25); }
+   .mobile-resize-text h2 
+   { 
+      font-size:var(--size-25); 
+      line-height:3rem;
+   }
    
-   .mobile-resize-text p { font-size:var(--size-18); }
-
-   .mobile-resize-text .btn-primary
-   {
-      font-size:var(--size-14);
+   .mobile-resize-text p 
+   { 
+      font-size:var(--size-18);
+      line-height:2.2rem;
    }
 
-   .column-left h2 
-   {
-      line-height:2rem;
-   }
+   .mobile-resize-text .btn-primary { font-size:var(--size-14); }
+
+   .column-right { margin-top:var(--size-100); }
+
+   .column-left h2 { line-height:2rem; }
 
    .mobile-resize-icon .sm 
    {
@@ -129,6 +133,80 @@ FOR IPADS AND TABLETS = PORTRAIT MODE
    .mobile-resize-card .benefit-card .btn-sketch
    {
       padding: 0.098rem var(--size-8);
+   }
+
+   .component-nodes
+   {
+      padding-bottom:var(--size-100);
+   }
+
+   .node-container .node-circle
+   {
+      width:var(--size-40);
+      height:var(--size-40);
+   }
+
+   .node-name 
+   {
+      font-size:var(--size-16);
+   }
+
+   .node-line 
+   {
+      width:4.5rem;
+      height:1px;
+   }
+
+   .director-image-column
+   {
+      margin-top:var(--size-200);
+      margin-bottom: 18.75rem;
+   }
+
+   .btn-large 
+   {
+      width:4.375rem;
+      height:4.375rem;
+      font-size:1.25rem;
+   }
+
+   .director-image 
+   {
+      max-width:25.5rem;
+      top:-22rem;
+      left:4.938rem;
+   }
+
+   .dots-graphic
+   {
+      max-width:15.25rem;
+      left:var(--size-16);
+   }
+
+   .director-quote-column
+   {
+      margin-top:var(--size-25);
+   }
+
+   .director-quote-column h2,
+   .director-name
+   {
+      line-height:2rem;
+   }
+
+   .trusted-company-section 
+   {
+      margin:0;
+   }
+
+   .company-logos-container img 
+   {
+      max-width:var(--size-100);
+   }
+
+   .pricing-section
+   {
+      margin-top:var(--size-100);
    }
 }
 
