@@ -82,8 +82,7 @@ a .play-arrow-base
 
 header 
 { 
-    margin-top:var(--size-100);
-    padding-top:var(--size-50); 
+    margin-top:var(--size-200);
 }
 
 header h2 
@@ -104,7 +103,7 @@ header p { margin-bottom:var(--size-50); }
 
 header .btn { margin-right:var(--size-40); }
 
-header .header-icon-container 
+.header-icon-container 
 {
     position:relative;
     display:grid;
@@ -114,7 +113,7 @@ header .header-icon-container
     grid-gap:var(--size-10);
 }
 
-header .header-icon 
+.header-icon 
 {
     background-color:var(--white);
     box-shadow:0px 0px 15px rgba(11, 8, 8, 0.3);
@@ -201,7 +200,7 @@ header .header-icon
 .benefit-card-grid
 {
     display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    grid-template-columns:repeat(auto-fit,minmax(270px,1fr));
     grid-gap:var(--size-50);
 }
 
@@ -506,7 +505,7 @@ form * { font-size:var(--size-20); }
 
 form h3
 {
-    font-size:var(--size-25);
+    font-size:var(--size-20);
     line-height:2rem;
     color:var(--black);
 }
