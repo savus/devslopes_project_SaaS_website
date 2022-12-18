@@ -20,6 +20,11 @@ FOR IPADS AND TABLETS = PORTRAIT MODE
       display:block;
    }
 
+   .navbar-toggler .trigram
+   {
+      display:block;
+   }
+
    [aria-expanded="false"] ~ ul 
    {
       display:none;
@@ -414,11 +419,28 @@ FOR IPADS AND TABLETS = PORTRAIT MODE
    }
 }
 
-@media screen and (max-width:400px)
+@media screen and (max-width:480px)
 {
+   .navbar-toggler .trigram 
+   {
+      display:none;
+   }
+
+   .navbar-toggler .x-icon
+   {
+      display:block;
+   }
+
    [aria-expanded="true"] ~ ul > li 
    {
       flex:1 1 100%;
       text-align:center;
+      margin-bottom:var(--size-20);
    }
+
+   [aria-expanded="true"] ~ ul > li.buy-now-btn
+   {
+      margin-top:0;
+   }
+
 }

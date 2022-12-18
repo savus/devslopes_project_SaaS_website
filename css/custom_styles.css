@@ -43,6 +43,11 @@
     pointer-events:none;
 }
 
+.navbar-toggler .x-icon 
+{
+    display:none;
+}
+
 [aria-controls="navbarDropdown"] { display:none; }
 
 
