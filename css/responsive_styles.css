@@ -96,10 +96,7 @@ FOR IPADS AND TABLETS
 
    .header-icon-container { margin-top:var(--size-50); }
 
-   .benefit-card-grid 
-   {
-      grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-   }
+   .benefit-card-grid  {  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));  }
 
    .mobile-resize-card .benefit-card { padding:var(--size-20); }
 
@@ -278,15 +275,9 @@ FOR IPADS AND TABLETS
    }
 
    .footer-bottom,
-   footer a 
-   {
-      font-size:var(--size-16);
-   }
+   footer a { font-size:var(--size-16); }
 
-   .media-links li 
-   {
-      margin-right:var(--size-14);
-   }
+   .media-links li { margin-right:var(--size-14); }
 
    .media-links a 
    {
@@ -323,24 +314,15 @@ FOR IPADS AND TABLETS
       margin-bottom:var(--size-20);
    }
 
-   [aria-expanded="true"] ~ ul > li.buy-now-btn
-   {
-      margin-top:0;
-   }
+   [aria-expanded="true"] ~ ul > li.buy-now-btn { margin-top:0;}
 
    [aria-expanded="true"] .x-icon { display:block; }
 
    [aria-expanded="true"] .trigram { display:none; }
 
-   header 
-   {
-      margin-top:var(--size-100);
-   }
+   header { margin-top:var(--size-100);}
 
-   header .tablet-resize-text h2 
-   { 
-      font-size:2rem; 
-   }
+   header .tablet-resize-text h2 { font-size:2rem; }
 
    header .btn { margin-right:var(--size-30); }
 
@@ -358,15 +340,9 @@ FOR IPADS AND TABLETS
 
    .why-front-section { padding:0 var(--size-18);}
 
-   .why-front-section h2 
-   {
-      margin-top:0;
-   }
+   .why-front-section h2 { margin-top:0; }
 
-   .why-front-section p 
-   {
-      line-height:1.5rem;
-   }
+   .why-front-section p { line-height:1.5rem; }
 
    .component-nodes .flex-and-align 
    {
@@ -380,10 +356,8 @@ FOR IPADS AND TABLETS
       margin-bottom:var(--size-20);
    }
    
-   .node-and-line 
-   {
-      margin:0 var(--size-30) 0 0;
-   }
+   .node-and-line { margin:0 var(--size-30) 0 0;  }
+
    .node-and-line .node-line { display:none; }
 
    .node-and-line .node-circle
@@ -394,15 +368,9 @@ FOR IPADS AND TABLETS
 
    .node-container .node-name { font-size:var(--size-20); }
 
-   .hubspot-video-container 
-   {
-      margin-bottom:var(--size-100);
-   }
+   .hubspot-video-container { margin-bottom:var(--size-100); }
 
-   .director-image-column
-   {
-      margin-bottom:12.75rem;
-   }
+   .director-image-column { margin-bottom:12.75rem; }
 
    .director-image
    {
@@ -411,15 +379,9 @@ FOR IPADS AND TABLETS
       left: 2.638rem;
    }
 
-   .dots-graphic 
-   {
-      max-width:11.25rem;
-   }
+   .dots-graphic { max-width:11.25rem;  }
 
-   .director-quote-column
-   {
-      margin-top:var(--size-100);
-   }
+   .director-quote-column { margin-top:var(--size-100); }
 
    .director-quote-column > h2 { font-size:var(--size-30); }
    

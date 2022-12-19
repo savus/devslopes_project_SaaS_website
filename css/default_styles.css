@@ -135,10 +135,7 @@ img
     line-height:1rem;
 }
 
-.highlighted 
-{
-    color:var(--link-highlight);
-}
+.highlighted { color:var(--link-highlight); }
 
 
 /*
