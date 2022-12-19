@@ -11,7 +11,7 @@ MEDIA QUERIES
 */
 
 /*
-FOR IPADS AND TABLETS = PORTRAIT MODE
+FOR IPADS AND TABLETS
 */
 @media screen and (max-width:768px)
 {
@@ -27,7 +27,7 @@ FOR IPADS AND TABLETS = PORTRAIT MODE
       justify-content:center;
       position:absolute;
       background-color:var(--white);
-      top:var(--size-100);
+      top:5.563rem;
       left:0;
       right:0;
       width:100%;
@@ -55,8 +55,8 @@ FOR IPADS AND TABLETS = PORTRAIT MODE
    {
       font-size: 2.688rem;
       line-height:3rem;
+      padding-right:0;
    }
-   
    
    .tablet-resize-text p 
    { 
@@ -67,8 +67,6 @@ FOR IPADS AND TABLETS = PORTRAIT MODE
    .tablet-resize-text .btn-primary { font-size:var(--size-14); }
 
    .column-right { margin-top:var(--size-100); }
-
-   /* .column-left h2 { line-height:2rem; } */
 
    .mobile-resize-icon .sm 
    {
@@ -95,6 +93,11 @@ FOR IPADS AND TABLETS = PORTRAIT MODE
    }
 
    .header-icon-container { margin-top:var(--size-50); }
+
+   .benefit-card-grid 
+   {
+      grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+   }
 
    .mobile-resize-card .benefit-card { padding:var(--size-20); }
 
@@ -142,9 +145,9 @@ FOR IPADS AND TABLETS = PORTRAIT MODE
 
    .director-image 
    {
-      max-width:25.5rem;
-      top:-22rem;
-      left:4.938rem;
+      max-width: 25.5rem;
+      top: -4rem;
+      left: 3.938rem;
    }
 
    .dots-graphic
@@ -158,7 +161,7 @@ FOR IPADS AND TABLETS = PORTRAIT MODE
    .director-quote-column h2,
    .director-name
    {
-      line-height:2.87rem;
+      line-height:2rem;
    }
 
    .trusted-company-section { margin:0; }
@@ -228,7 +231,11 @@ FOR IPADS AND TABLETS = PORTRAIT MODE
       justify-content:center;
    }
 
-   .hire-us-left { padding-right:var(--size-50); }
+   .hire-us-left 
+   { 
+      padding-right:var(--size-50); 
+      width:80%;
+   }
 
    .hire-us-left hr { max-width:initial; }
 
@@ -236,14 +243,14 @@ FOR IPADS AND TABLETS = PORTRAIT MODE
 
    .staff-profiles img 
    {
-      width:3.688rem;
-      height:3.688rem;
+      width:2.688rem;
+      height:2.688rem;
    }
 
    .staff-profiles .staff-profile-lg 
    {
-      width:4.625rem;
-      height:4.625rem;
+      width:3.625rem;
+      height:3.625rem;
    }
 
    .policy-container { justify-content:flex-start; }
@@ -328,7 +335,10 @@ FOR IPADS AND TABLETS = PORTRAIT MODE
       margin-top:var(--size-100);
    }
 
-   header .tablet-resize-text h2 { font-size:2rem; }
+   header .tablet-resize-text h2 
+   { 
+      font-size:2rem; 
+   }
 
    header .btn { margin-right:var(--size-30); }
 
@@ -382,6 +392,11 @@ FOR IPADS AND TABLETS = PORTRAIT MODE
 
    .node-container .node-name { font-size:var(--size-20); }
 
+   .hubspot-video-container 
+   {
+      margin-bottom:var(--size-50);
+   }
+
    .director-image-column
    {
       margin-bottom:12.75rem;
@@ -390,8 +405,13 @@ FOR IPADS AND TABLETS = PORTRAIT MODE
    .director-image
    {
       max-width: 21.5rem;
-      top: -21rem;
-      left: 2.638rem;
+      top: 2rem;
+      left: 3.638rem;
+   }
+
+   .director-quote-column
+   {
+      margin-top:var(--size-100);
    }
 
    .director-quote-column > h2 { font-size:var(--size-30); }
@@ -438,6 +458,7 @@ FOR IPADS AND TABLETS = PORTRAIT MODE
    { 
       margin-bottom:var(--size-100); 
       padding-right:0;
+      width:100%;
    }
 
    .hire-us-right { align-items:center; }
