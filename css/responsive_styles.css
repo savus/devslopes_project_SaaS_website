@@ -396,7 +396,7 @@ FOR IPADS AND TABLETS
 
    .hubspot-video-container 
    {
-      margin-bottom:var(--size-50);
+      margin-bottom:var(--size-100);
    }
 
    .director-image-column
@@ -406,9 +406,14 @@ FOR IPADS AND TABLETS
 
    .director-image
    {
-      max-width: 21.5rem;
-      top: 2rem;
-      left: 3.638rem;
+      max-width: 18.5rem;
+      top: -3rem;
+      left: 2.638rem;
+   }
+
+   .dots-graphic 
+   {
+      max-width:11.25rem;
    }
 
    .director-quote-column

@@ -1,13 +1,16 @@
 .top-section-bg
 {
     background:linear-gradient(
-        90deg, 
+        115deg, 
         transparent 0%,
-        rgba(221, 221, 221,0.5) 70%,
-        #e0e7ef 70%
+        rgba(221, 221, 221,0.4) 40%,
+        rgba(221, 221, 221, 0.7) 70%,
+        #e0e7ef 70%,
+        #e0e7ef 100%
         );
-    z-index:-1;
 }
+
+/* #e0e7ef */
 
 .navbar 
 {
@@ -88,6 +91,8 @@ a .play-arrow-base
 header 
 { 
     padding-top:var(--size-200);
+    position:relative;
+    z-index:10;
 }
 
 header h2 
