@@ -17,6 +17,11 @@
     left:0;
     width:100%;
     z-index:100;
+    transition:ease-in-out 0.1s;
+}
+
+.navbar.sticky
+{
     background-color:var(--white);
     border-bottom:1px solid rgba(27,27,27,0.1);
     box-shadow:0 0 12px rgba(27,27,27,0.1);
