@@ -42,7 +42,7 @@ body a
 {
     font-family:"Open Sans", sans-serif;
     font-weight:400;
-    font-size:var(--size-20);
+    font-size:var(--size-16);
     line-height:1.6;
     letter-spacing:0;
     color:var(--font-color-base);
@@ -81,8 +81,8 @@ img
 .container
 {
     width:100%;
-    padding-left:var(--size-50);
-    padding-right:var(--size-50);
+    padding-left:var(--size-25);
+    padding-right:var(--size-25);
     margin-left:auto;
     margin-right:auto;
 }
@@ -116,13 +116,13 @@ img
 
 .btn-large
 {
-    font-size: 2.25rem;
+    font-size: 1.5rem;
     color: var(--black);
     background-color: var(--white);
     border-radius: 50%;
     box-shadow: 0 0 12px rgba(21,21,21,0.4);
-    width: 7.5rem;
-    height: 7.5rem;
+    width: 5.313rem;
+    height: 5.313rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -152,3 +152,4 @@ MEDIA QUERIES
 400px
 ==============================
 */
+

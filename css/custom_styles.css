@@ -59,7 +59,7 @@
 
 .bold { font-weight:600; }
 
-.brand-logo { width:12.5rem; }
+.brand-logo { width:10rem; }
 
 .push-right { margin-right:auto; }
 
@@ -87,19 +87,20 @@ header
 
 header h2 
 {
-    font-size: 4.688rem;
-    line-height: 5rem;
+    font-size: 2.5rem;
+    line-height: 3rem;
     font-weight:400;
     margin-bottom:var(--size-20);
+    padding-right:var(--size-100);
 }
 
 header p { margin-bottom:var(--size-50); }
 
 .title-and-content h2 { color:var(--black); }
 
-.padding-beneath { padding-bottom:var(--size-100); }
+.padding-beneath { padding-bottom:var(--size-50); }
 
-.margin-beneath { margin-bottom:var(--size-100); }
+.margin-beneath { margin-bottom:var(--size-50); }
 
 header .btn { margin-right:var(--size-40); }
 
@@ -134,14 +135,14 @@ header .btn { margin-right:var(--size-40); }
 
 .header-icon.sm 
 {
-    width:var(--size-100);
-    height:var(--size-100);
+    width:var(--size-50);
+    height:var(--size-50);
 }
 
 .header-icon.md 
 {
-    width:7.5rem;
-    height:7.5rem;
+    width:4.688rem;
+    height:4.688rem;
 }
 
 .google-icon
@@ -195,13 +196,13 @@ header .btn { margin-right:var(--size-40); }
     animation-duration:1s;
 }
 
-.benefits-section { margin-top:var(--size-200); }
+.benefits-section { margin-top:var(--size-50); }
 
 .benefit-card-grid
 {
     display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(270px,1fr));
-    grid-gap:var(--size-50);
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+    grid-gap:var(--size-25);
 }
 
 .benefit-card-grid a 
@@ -221,25 +222,25 @@ header .btn { margin-right:var(--size-40); }
 
 .section-intro h2
 {
-    font-size:var(--size-40);
+    font-size:var(--size-30);
     margin-bottom:var(--size-8);
 }
 
-.section-intro p { font-size:var(--size-30); }
+.section-intro p { font-size:var(--size-20); }
 
 .benefit-card 
 {
     border:1px solid rgba(227, 227, 227, 0.3);
-    padding:var(--size-40) var(--size-50);
+    padding:var(--size-20) var(--size-25);
     box-shadow:0px 20px 20px #e3e3e3;
     display:block;
 }
 
-.benefit-icon { width:var(--size-100); }
+.benefit-icon { width:var(--size-50); }
 
-.benefit-card .title-and-content h2 { font-size:var(--size-25); }
+.benefit-card .title-and-content h2 { font-size:var(--size-20); }
 
-.benefit-card .title-and-content p { font-size:var(--size-20); }
+.benefit-card .title-and-content p { font-size:var(--size-16); }
 
 .banner-section-columns 
 {
@@ -251,12 +252,19 @@ header .btn { margin-right:var(--size-40); }
 .column-left h2 
 {
     color:var(--font-color-dark);
-    line-height:2.87rem;
-    font-size:var(--size-40);
+    line-height:1.87rem;
+    font-size:var(--size-30);
     font-weight:400;
+    padding-right:var(--size-40);
 }
 
-.component-nodes { padding-bottom:var(--size-200); }
+.why-front-section > .section-intro 
+{
+    max-width:650px;
+    margin:auto; 
+}
+
+.component-nodes { padding-bottom:var(--size-100); }
 
 .component-nodes .container { justify-content:center; }
 
@@ -271,8 +279,8 @@ header .btn { margin-right:var(--size-40); }
 
 .node-container .node-circle
 {
-    width:5.313rem;
-    height:5.313rem;
+    width:var(--size-50);
+    height:var(--size-50);
     background-color:rgba(236, 242, 255,0.7);
     border-radius:50%;
     position:relative;
@@ -301,7 +309,7 @@ header .btn { margin-right:var(--size-40); }
 .node-line
 {
     background-color:var(--background-color-soft);
-    width:8.25rem;
+    width:5rem;
     height:2px;
 }
 
@@ -310,13 +318,13 @@ header .btn { margin-right:var(--size-40); }
 .node-name
 {
     color:var(--font-color-dark);
-    font-size:var(--size-30);
+    font-size:var(--size-18);
 }
 
 .hubspot-video-container
 {
     position:relative;
-    margin-bottom:var(--size-200);
+    margin-bottom:var(--size-100);
 }
 
 .hubspot-play 
@@ -327,58 +335,58 @@ header .btn { margin-right:var(--size-40); }
     transform:translate(-50%, -50%);
 }
 
-.director-image-column { position:relative; }
+.hubspot-director-container { position:relative; }
 
 .director-image-column img { position:absolute; }
 
 .director-image 
 {
-    max-width:31.5rem;
-    top: -19rem;
-    left: 5.938rem;
+    max-width:23rem;
+    top: -3.75rem;
+    left: var(--size-50);
     z-index: 5;
 }
 
 .dots-graphic
 {
-    max-width:21.25rem;
-    top:-17.25rem;
+    max-width:14rem;
+    top:0;
 }
 
-.hubspot-logo { max-width:9.5rem; }
+.hubspot-logo { max-width:8rem; }
 
 .director-quote-column > h2 
 {
     color: var(--black);
-    font-size: var(--size-40);
+    font-size: var(--size-25);
     font-weight: 400;
-    line-height: 3.5rem;
-    margin: var(--size-50) 0;
+    line-height: 2.5rem;
+    margin: var(--size-30) 0;
 }
 
 .director-name h2 
 {
     margin-bottom: 0;
-    font-size: 2.188rem;
+    font-size: 1.188rem;
 }
 
 .director-name p 
 {
-    font-size: 1.75rem;
+    font-size: 1rem;
     font-weight: bold;
 }
 
-.trusted-company-section { margin:var(--size-150) 0; }
+.trusted-company-section { margin:var(--size-100) 0; }
 
 .trusted-company-section h2 
 {
-    font-size: var(--size-30);
+    font-size: var(--size-20);
     margin-bottom: var(--size-50);
 }
 
 .company-logos-container { justify-content:space-between; }
 
-.company-logos-container img { max-width:var(--size-200); }
+.company-logos-container img { max-width:var(--size-100); }
 
 .pricing-section { margin-bottom:var(--size-200); }
 
@@ -386,18 +394,19 @@ header .btn { margin-right:var(--size-40); }
 {
     display:grid;
     grid-template-columns:repeat(3,1fr);
+    grid-gap:25px;
 }
 
 .monthly-price 
 {
     grid-column:1 / span 1;
     grid-row:1 / span 2;
-    width:34.375rem;
+    width:22rem;
 }
 
 .benefit-card.monthly-price span:nth-child(1) 
 {
-    font-size:4.375rem;
+    font-size:3.375rem;
     font-weight:400;
     color:var(--black);
 }
@@ -406,7 +415,7 @@ header .btn { margin-right:var(--size-40); }
 {
     margin:0 0 0 var(--size-10);
     font-weight:400;
-    font-size:var(--size-30);
+    font-size:var(--size-20);
 }
 
 .monthly-price hr { margin:var(--size-20) 0 var(--size-50) 0; }
@@ -415,12 +424,12 @@ header .btn { margin-right:var(--size-40); }
 
 .monthly-price ~ .benefit-card 
 {
-    padding:var(--size-40);
+    padding:var(--size-20);
     box-shadow:none;
     border:none;
 }
 
-.monthly-price ~ .benefit-card h2 { font-size:var(--size-25); }
+.monthly-price ~ .benefit-card h2 { font-size:var(--size-20); }
 
 .monthly-price ~ .benefit-card .benefit-icon { max-width:4.688rem; }
 
