@@ -13,6 +13,16 @@ MEDIA QUERIES
 /*
 FOR IPADS AND TABLETS
 */
+@media screen and (min-width:1024px)
+{
+   .container,
+   .form-container
+   {
+      max-width:994px;
+      margin:0 auto;
+   }
+}
+
 @media screen and (max-width:768px)
 { 
    .navbar { background-color:var(--white); }
