@@ -16,7 +16,8 @@ FOR IPADS AND TABLETS
 @media screen and (min-width:1024px)
 {
    .container,
-   .form-container
+   .form-container,
+   .footer-column-grid
    {
       max-width:994px;
       margin:0 auto;
